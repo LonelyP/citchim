@@ -839,7 +839,7 @@ pre code {
   color: #ffffff;
 }
 .pi-section-white {
-  color: #666e70;
+  color: #f37920;
 }
 .pi-section-white h1,
 .pi-section-white .h1,
@@ -1161,7 +1161,7 @@ pre code {
 .pi-section-grey .h5 a.pi-link-white:hover,
 .pi-section-grey h6 a.pi-link-white:hover,
 .pi-section-grey .h6 a.pi-link-white:hover {
-  color: #fff;
+  color: #f37920;
 }
 .pi-section-grey h1 a.pi-link-no-style,
 .pi-section-grey .h1 a.pi-link-no-style,
@@ -1259,7 +1259,7 @@ pre code {
   color: #008599;
 }
 .pi-section-dark {
-  color: #858d91;
+  color: #ffffff;
 }
 .pi-section-dark h1,
 .pi-section-dark .h1,
@@ -1405,11 +1405,11 @@ pre code {
 .pi-section-dark acronym,
 .pi-section-dark strong,
 .pi-section-dark b {
-  color: #ccccd5;
+  color: #ffffff;
   font-weight: 600;
 }
 .pi-section-dark a {
-  color: #0dc0c0;
+  color: #ffffff;
 }
 .pi-section-dark a:hover {
   color: #008599;
@@ -1723,4 +1723,12 @@ pre code {
 ::-webkit-selection {
   background: #00919c;
   color: #fff;
+}
+
+c {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    
+    
 }
