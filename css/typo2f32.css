@@ -1687,7 +1687,7 @@ pre code {
 .pi-icon-base {
   background: #0dc0c0;
   color: #fff;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 0px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-icon-dark {
   background: #2e343c;
