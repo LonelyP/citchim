@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lufix - Registro</title>
+  <link href="icono\lufix.ico" rel="shortcut icon" type="image/x-icon"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+</head>
+<body>
+<div class="container">
+			<!-- freshdesignweb top bar -->
+            <div class="freshdesignweb-top">
+                <a href="http://www.lufix.tech/" target="_blank">Inicio</a>
+                <div class="clr"></div>
+            </div><!--/ freshdesignweb top bar -->
+			<header>
+				<h1><span>Registro</span> Ingrese sus datos, todos los campos son obligatorios</h1>
+            </header>       
+      <div  class="form">
+    		<form action="enviar.php" name="contacto" method="post" id="contactform"> 
+    			<p class="contact"><label for="name">Nombres</label></p> 
+    			<input id="name" name="name" placeholder="Nombres" required="" tabindex="1" type="text"> 
+    			 
+    			<p class="contact"><label for="lastname">Apellidos</label></p> 
+    			<input id="lastname" name="lastname" placeholder="Apellidos" required="" tabindex="1" type="text"> 
+                
+                <p class="contact"><label for="email">Email</label></p> 
+    			<input id="email" name="email" placeholder="Ingresar correo" required="" tabindex="1" type="email"> 
+    			 
+                <p class="contact"><label for="dni">DNI</label></p> 
+    			<input id="dni" name="dni" placeholder="Ingresar DNI" required="" tabindex="1" type="text"> 
+                <p class="contact"><label for="address">Dirección</label></p> 
+    			<input id="address" name="addres" placeholder="Ingresar Dirección" required="" tabindex="1" type="text"> 
+        
+               <fieldset>
+                 <label>Nacimiento  </label>
+                  <label class="month"> 
+                  <select class="select-style" name="BirthMonth" id="BirthMonth">
+                  <option value="">Mes</option>
+                  <option value="01">Enero</option>
+                  <option value="02">Febrero</option>
+                  <option value="03" >Marzo</option>
+                  <option value="04">Abril</option>
+                  <option value="05">Mayo</option>
+                  <option value="06">Junio</option>
+                  <option value="07">Julio</option>
+                  <option value="08">Agosto</option>
+                  <option value="09">Septiembre</option>
+                  <option value="10">Octubre</option>
+                  <option value="11">Nomviembre</option>
+                  <option value="12">Diciembre</option>
+                  </label>
+                 </select>    
+                <label>Día <input class="birthday" maxlength="2" name="BirthDay" id="BirthDay"  placeholder="Día" required=""></label>
+                <label>Año <input class="birthyear" maxlength="4" name="BirthYear" id="BirthYear" placeholder="Año" required=""></label>
+              </fieldset>
+  
+            <select class="select-style gender" name="gender" id="gender">
+            <option value="select">Genero</option>
+            <option value="m">Masculino</option>
+            <option value="f">Femenino</option>
+            <option value="others">Otro</option>
+            </select><br><br>
+            
+            <p class="contact"><label for="phone">Numero de celular</label></p> 
+            <input id="phone" name="phone" placeholder="Ingresar numero" required="" type="text"> <br>
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Registrar" type="submit">             
+        </form>
+
+</div>      
+</div>
+
+<div id="block-block-3" class="pi-section-white block block-block" >
+  <div class = "block-content clearfix">
+    <div  class = ' pi-section-dark pi-section-w pi-shadow-inside-top full-width-adjust' style = 'border-bottom: 3px solid #FE9A2E;box-shadow: none;'>
+    
+    <div class=" no-vertical-padding pi-section">
+  <div  class = ' col-sm-6'>
+  <center><p><a href="https://www.facebook.com/Lufix-Centro-de-Innovación-Tecnológico-188241474956847" target="_blank"><img alt="" class="media-image img__fid__148 img__view_mode__default attr__format__default attr__field_file_image_alt_text[und][0][value]__ attr__field_file_image_title_text[und][0][value]__" src="img/lufix.png" style="height: 96px; width: 95px; float: center;"></a></p></center>
+  <div  style = 'margin-left: 470px; margin-top: 1px; color: #FFFFFF;'><p>&nbsp;</p><p>© 2016.&nbsp;<span style="font-family: Consolas, 'Lucida Console', monospace; white-space: pre-wrap; color: #FE9A2E;">«</span><a href="https://www.facebook.com/EcarrRey" style="font-family: Consolas; color: #FE9A2E;">ShadowDate-WebSite</a><span style="font-family: Consolas, 'Lucida Console', monospace; white-space: pre-wrap; color: #FE9A2E;">»</span>. Todos los Derechos Reservados.</p></div>
+</div>
+</div>
+
+</body>
+</html>
